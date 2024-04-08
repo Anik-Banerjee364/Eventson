@@ -163,8 +163,7 @@ const EventForm = ({ userId, type }: EventFormProps) => {
               )}
             />
           <FormField
-              control={form.control}
-              name="endDateTime"
+              control={form.control} name="startDateTime"
               render={({ field }) => (
                 <FormItem className="w-full">
                   <FormControl>
