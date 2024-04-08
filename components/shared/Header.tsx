@@ -8,10 +8,10 @@ import NavItems from "@/components/shared/NavItems"
 const Header = () => {
   return (
     <header className="w-full border-b">
-      <div className="wrapper flex items-center justify-between">
+      <div className="wrapper flex items-center justify-between bg-yellow-100">
         <Link href="/" className="w-36">
           <Image 
-            src="/assets/images/logo.svg" width={128} height={38}
+            src="/assets/images/Eventson.png" width={128} height={38}
             alt="Evently logo" 
           />
         </Link>
